@@ -3,15 +3,19 @@ import Container from "./Container.astro";
 const links = [
     {
         to: "/#features",
-        label: "Features",
+        label: "Fitur",
     },
     {
-        to: "/#solution",
-        label: "Solution",
+        to: "https://status.xinzuo.xyz",
+        label: "Status",
     },
     {
         to: "/#reviews",
-        label: "Reviews",
+        label: "Ulasan",
+    },
+    {
+        to: "/#solusi",
+        label: "Bantuan",
     },
 ];
 ---
@@ -48,7 +52,7 @@ const links = [
 </script>
 
 <header>
-    <nav class="absolute z-10 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent">
+    <nav class="fixed z-10 w-full bg-white/20 dark:bg-gray-950/75 dark:shadow-md rounded-b-lg dark:shadow-gray-950/10 border-b border-color:black backdrop-blur">
         <Container>
             <div class="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4">
                 <div class="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
@@ -81,7 +85,7 @@ const links = [
                                 ))
                             }
                             <li>
-                                <a href="https://tailus.gumroad.com/l/astls-premium" target="_blank" class="flex gap-2 font-semibold text-gray-700 transition hover:text-primary dark:text-white dark:hover:text-white md:px-4">
+                                <a href="http://wa.me/6289501136170?text=menu" target="_blank" class="flex gap-2 font-semibold text-gray-700 transition hover:text-primary dark:text-white dark:hover:text-white md:px-4">
                                     <span>Premium</span>
                                     <span class="flex rounded-full bg-primary/20 px-1.5 py-0.5 text-xs tracking-wider text-purple-700 dark:bg-white/10 dark:text-orange-300"> new</span>
                                 </a>
