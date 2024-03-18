@@ -10,9 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "~4.5.5",
-    "astro-font": "^0.0.72",
-    "@astrojs/vercel": "~7.3.6"
+    "astro": "^1.9.2",
+    "astro-font": "^0.0.72"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^1.0.0"
